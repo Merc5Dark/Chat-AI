@@ -1,8 +1,7 @@
-// Import necessary modules
-import express from 'express'; // Import the Express framework
-import bodyParser from 'body-parser'; // Middleware for parsing JSON data in request bodies
-import cors from 'cors'; // Middleware for handling Cross-Origin Resource Sharing
-import { Configuration, OpenAIApi } from 'openai'; // Import OpenAI SDK
+import express from 'express';
+import bodyParser from 'body-parser';
+import cors from 'cors';
+import { Configuration, OpenAIApi } from 'openai';
 
 // Create an Express application
 const app = express();
